@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mak Hospital Appointment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #9c27b0;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 1.8em;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    .notes, .appointments {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+    th {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Mak Hospital Appointment
+  </header>
+  <div class="container">
+    <div class="section-title">📝 Things to Remind</div>
+    <div class="notes">
+      <ul>
+        <li>Teman mak masuk bilik doktor,sebab mak tak berapa dengar dr cakap apa.</li>
+        <li>Lepas jumpa doktor, kena ambil ubat dekat farmasi di Kluang dulu.</li>
+        <li>Bagitau dekat farmasi ubat tu nak ambil kat KK Simpang lepas tu.</li>
+        <li>Biasa appointment habis tengahari, tapi depends.</li>
+        <li>Tolong tulis kan kat sticky note tarikh next appointment/amik darah with details buat apa</li>
+        <li>Sebab mak kadang confuse dengan semua tu.so dengan sticky note mak boleh rujuk kat situ tanpa perlu call sesiapa. 
+          ps: mak selalu rasa segan nak call korang semua takut menyusahkan katanya</li>
+      </ul>
+    </div>
+
+    <!-- BULAN 6 Appointments -->
+    <div class="section-title">📅 Upcoming Appointments Bulan 6</div>
+    <div class="appointments">
+   <table>
+     <thead>
+       <tr>
+         <th>Date</th>
+         <th>Time</th>
+         <th>Event</th>
+         <th>Notes</th>
+         <th>Add to Calendar</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>5/6/2025</td>
+         <td>10AM  - 1PM</td>
+         <td>Ambil Darah  </td>
+         <td>
+           - Di KK Simpang<br>
+           - Tak perlu puasa dan datang awal<br>
+         </td>
+         <td>
+           <a target="_blank" href="https://calendar.app.google/5K1zud3ud8durH7w7"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+         </td>
+       </tr>
+       <tr>
+         <td>17/6/2025</td>
+         <td>9AM - 1PM</td>
+         <td>ORTHO CHECKUP </td>
+         <td>
+           - Dapatkan tarikh operate<br>
+           - Mak selalu nervous kalau dengar nak operate, kalau mak kata tak nak teruskan pujuk la mak operate sebab mak risau kat bilik operate<br>
+           - Kalau dr ada tanya tarikh jumpa Dr bius 26/6 lepas tu tak ada tarikh susulan, bius tunggu tarikh operate saja dan dr bius dah terangkan bius apa dan risiko bius semasa dan selepas<br>
+           - Dr bius basiclyy cakap mak boleh operate sebab knee surgery kira low risk surgery <br>
+           - Appointment biasa habis tengahari (depends). Ortho lama nak mampuss<br>
+         </td>
+         <td>
+           <a target="_blank" href="https://calendar.app.google/fwokvc2GJK2Lt83G8"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+         </td>
+       </tr>
+       <tr>
+         <td>20/6/2025</td>
+         <td>ANY TIME</td>
+         <td>Ubat jantung di KKSimpang </td>
+         <td>
+           - Akak boleh tolong amik ubat ye<br>
+         </td>
+         <td>
+           <a target="_blank" href="https://calendar.app.google/cNm4rdfEjkUivcMw5"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+         </td>
+       </tr>
+       <tr>
+         <td>26/6/2025</td>
+         <td>10am-12am</td>
+         <td>Follow up jantung di KKSimpang </td>
+         <td>
+             - Just tunjuk kad kuning dari KK Simpang<br>
+         </td>
+         <td>
+           <a target="_blank" href="https://calendar.app.google/cNm4rdfEjkUivcMw5"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+         </td>
+       </tr>
+</tbody>
+ </table>
+</div>
+
+<!-- BULAN 7 Appointments -->
+<div class="section-title">📅 Upcoming Appointments Bulan 7</div>
+        <div class="appointments">
+       <table>
+         <thead>
+           <tr>
+             <th>Date</th>
+             <th>Time</th>
+             <th>Event</th>
+             <th>Notes</th>
+             <th>Add to Calendar</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>2/7/2025</td>
+             <td>8AM  - 1PM</td>
+             <td>Ambil Darah  </td>
+             <td>
+               - Di Hospital Kluang<br>
+               - Dekat klinik pesakit luar. 
+               - kena tunggu dengan mak sebab nak amik darah kena berdiri untuk beratur. mak tak kuat lama lama berdiri.
+               - mak kena puasa. 
+               - darah ni untuk checkup jantung.<br>
+             </td>
+             <td>
+               <a target="_blank" href="https://calendar.app.google/xft6ASqPoCJ8HcCu8"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+             </td>
+           </tr>
+           <tr>
+             <td>10/7/2025</td>
+             <td>9AM - 1PM</td>
+             <td>JANTUNG CHECKUP </td>
+             <td>
+                - Paling mak nervous<br>
+                - previous check Dr cakap injap mak agak lemah untuk berfungi, faktor mungkin sebab mak dah berusia dan banyak patient perempuan kena yang macam ni<br>
+                - Mungkin mak dah kena lama tapi baru teruk bila dah berusia.<br>
+                - Remind mak untuk mention pasal ubat kat Dr jantung,sebab mak rasa tak sedap badan sejak makan ubat jantung, cari darah darah tinggi semua tu<br>
+                - sebab mak kadang lupa nak bagitau lepas tu kat rumah mak cakap tak sedap rasa bila makan ubatnya<br>
+             </td>
+             <td>
+               <a target="_blank" href="https://calendar.app.google/GT9ectLoQqY9ZCpU7"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+             </td>
+           </tr>
+           <tr>
+             <td>16/7/2025</td>
+             <td>ANY TIME</td>
+             <td>Ubat Kolestrol di KKSimpang </td>
+             <td>
+               - Akak boleh tolong amik ubat ye<br>
+             </td>
+             <td>
+               <a target="_blank" href="https://calendar.app.google/1nK1EMH4TFEAGfC56"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+             </td>
+           </tr>
+  </tbody>
+  </table>
+</div>
+
+<!-- BULAN 9 Appointments -->
+<div class="section-title">📅 Upcoming Appointments Bulan 9</div>
+<div class="appointments">
+<table>
+ <thead>
+   <tr>
+     <th>Date</th>
+     <th>Time</th>
+     <th>Event</th>
+     <th>Notes</th>
+     <th>Add to Calendar</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr>
+     <td>8/9/2025</td>
+     <td>10AM - 1PM</td>
+     <td>Ambil Darah  </td>
+     <td>
+       - Di Hospital Kluang<br>
+       - Appointment pagi tapi crowded gila pakar mata so pergi pukul 10am okay sikit<br>
+       - Tolong amik wheelchair sebab mak tak larat nak jalan sampai mata, mak penat<br>
+     </td>
+     <td>
+       <a target="_blank" href="https://calendar.app.google/vUJ8RsH64FTGztN68"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+     </td>
+   </tr>
+   <tr>
+     <td>9/9/2025</td>
+     <td>10AM - 12</td>
+     <td>Kolestrol CHECKUP </td>
+     <td>
+        - KK Simpang<br>
+     </td>
+     <td>
+       <a target="_blank" href="https://calendar.app.google/RcJ7DRhQNjPdZxUZ7"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+     </td>
+   </tr>
+   <tr>
+     <td>8/10/2025</td>
+     <td>9AM</td>
+     <td>CHECK Jantung</td>
+     <td>
+       - Dekat Hospital Kluang, tak ada jumpa Dr<br>
+       - Terus pergi bilik 26<br>
+       - Ni check condition jantung mak<br>
+     </td>
+     <td>
+       <a target="_blank" href="https://calendar.app.google/Q3gGhWCQtryUt7keA"><img border="0" src="https://calendar.google.com/calendar/images/ext/gc_button1_en-GB.gif" alt="Google Calendar"></a>
+     </td>
+   </tr>
+    </tbody>
+  </table>
+</div>
+
+  </div>
+</body>
+</html>
